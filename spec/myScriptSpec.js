@@ -25,4 +25,11 @@ describe("subtraction", function () {
       expect(result).toBe("Invalid");
     });
   });
+  describe("subtraction", function () {
+    it("returns the subtraction of two decimal numbers", function () {
+      // expect(subtract(0.8-0.4)).toEqual(0.4);
+      let subtract = subtraction(0.8, 0.4);
+      expect(subtract).toEqual(0.4);
+    });
+  });
 });
