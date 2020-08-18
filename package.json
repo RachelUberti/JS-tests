@@ -1,0 +1,22 @@
+{
+  "name": "js-tests",
+  "version": "1.0.0",
+  "description": "Practice: Writing Tests for a Project",
+  "main": "myScript.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachelUberti/JS-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachelUberti/JS-tests/issues"
+  },
+  "homepage": "https://github.com/RachelUberti/JS-tests#readme",
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
